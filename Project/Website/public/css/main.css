@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+/* Navbar Details */
+.navbar {
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+
+.navbar-brand {
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+#menu {
+  padding-right: 40px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.2em !important
+}
+
+#NavbarButtons {
+  width: 85px;
+  cursor: pointer;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.navbar-right {
+  position: absolute;
+  right: 0%;
+  padding-right: 70px;
+}
+
+/* Modal Details */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Modal window labels */
+#LoginLabel {
+  margin-top: 10px;
+}
+
+/* Modal window button 1 */
+#LoginPageButton1_a, #LoginPageButton1_b {
+  width: 85px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 36%;
+}
+
+/* Modal window button 2 */
+#LoginPageButton2_a, #LoginPageButton2_b {
+  width: 85px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Center the image and position the close button */
+#ImageContainer {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  position: relative;
+}
+
+#Avatar {
+  width: 20%;
+  border-radius: 25%;
+}
+
+.container {
+  padding: 5px;
+}
+
+/* The Modal (background) */
+#id01, #id02 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: auto;; /* Full width */
+  height: auto;; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 10px;
+}
+
+/* Modal Content Box */
+#ModalContent1, #ModalContent2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  padding: 1%;
+}
+
+/* The Close Button (x) */
+#Close {
+  position: absolute;
+  right: 1px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* Carousel Details */
+.carousel-inner img {
+  margin-left: 20px;
+  width: 97%;
+  height: 97%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h3 {
+  font-size: 500%;
+  text-shadow: 1px 1px 15px #000;
+  padding-bottom: 1rem;
+}
+
+/* Feature Details */
+#Feature {
+  font-size: 250%;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+#iconImage {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.filter-orange {
+  filter: invert(40%) sepia(72%) saturate(3240%) hue-rotate(348deg) brightness(93%) contrast(92%);
+}
+
+.filter-purple {
+  filter: invert(25%) sepia(14%) saturate(2378%) hue-rotate(222deg) brightness(97%) contrast(87%);
+}
+
+.filter-green {
+  filter: invert(21%) sepia(99%) saturate(1387%) hue-rotate(96deg) brightness(93%) contrast(102%);
+}
+
+.filter-blue {
+  filter: invert(33%) sepia(67%) saturate(800%) hue-rotate(176deg) brightness(91%) contrast(97%);
+}
+
+.filter-darkblue {
+  filter: invert(11%) sepia(70%) saturate(6035%) hue-rotate(243deg) brightness(68%) contrast(133%);
+}
+
+.filter-yellow {
+  filter: invert(82%) sepia(44%) saturate(1235%) hue-rotate(357deg) brightness(100%) contrast(106%);
+}
+
+#line {
+  margin-bottom: 3.5rem;
+}
+
+/* Card Details */
+#card1 {
+  height: 600px;
+  width: 300px;
+  margin-left: 36.5%;
+  margin-bottom: 2.5rem;
+}
+
+#cardTitle {
+  font-size: 250%;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+/* Footer Details */
+#footerLogo {
+  margin-top: -20px;
+  margin-bottom: -35px;
+}
+
+#FooterText {
+  margin-bottom: 5px;
+}
+
+#footerLink {
+  margin-top: -10px;
+  margin-bottom: 8px;
+}
+
+#ConnectHeader {
+  margin-top: 5rem;
+}
+
+#ConnectIconImage {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+#footer {
+  background-color: #D3D3D3;
+}
+
+.vl {
+  margin-top: 25px;
+  margin-left: 120px;
+}
+
+#footer1 {
+  margin-left: 120px;
+}
+
+#footer2 {
+  margin-left: -230px;
+}
+
+/* Survey Generation Details */
+#GeneratePageTitle, #SurveyPageTitle {
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#GeneratePageData {
+  margin-bottom: 2rem;
+}
+
+#newRows, #newRows_1, #newRows_2, #newRows_3, #newRows_4, #FormControlTextarea3, #NewQuestion {
+  margin-bottom: 15px;
+}
+
+#AddOptionButton {
+  width: 150px;
+}
+
+#RemoveOptionButton {
+  width: 150px;
+  margin-left: -110px;
+}
+
+#NewQuestion {
+  margin-left: 180px;
+  width: 210px;
+}
+
+#RemoveQuestion {
+  width: 212px;
+  margin-top: -15px;
+  margin-bottom: 14px;
+  margin-left: 194px;
+}
+
+#SubmitButton {
+  width: 110px;
+  margin-left: 430px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#ResetButton {
+  width: 110px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* Survey Page Details */
+#TitleButton {
+  width: 100%;
+}
+
+#accordion {
+  margin-bottom: 50px;
+}
+
+#Collapsible {
+  margin-bottom: 25px;
+}
